@@ -1,0 +1,16 @@
+{
+	"name": "fusion",
+	"id": 20000,
+	"commands": [
+        {
+            "theme": "fusion",
+            "syntax": "fusion send message(&J)",
+            "threadSafe": false
+        },
+				{
+            "theme": "fusion",
+            "syntax": "fusion on event call(&T)",
+            "threadSafe": false
+        }
+	]
+}
