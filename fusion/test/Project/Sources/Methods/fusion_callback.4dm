@@ -7,10 +7,10 @@ $value:=$2
 
 $EM_REPLACESEL:=194
 
-Case of 
+Case of
 	: ($event=$EM_REPLACESEL)
-		
+
 		SET TEXT TO PASTEBOARD:C523($value)
 		INVOKE ACTION:C1439(ak paste:K76:55;ak main form:K76:69)
-		
-End case 
+
+End case
